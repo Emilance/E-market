@@ -1,18 +1,18 @@
 .ProductComponent{
-   display: grid;
-   border: 1px solid black;
-   grid-template-columns:auto;
+   display: flex;
+     justify-content: center;
+     align-items:center ;
+   flex-wrap: wrap;
 }
 
 .productsList {
-    margin: 3rem;
-    width:20rem;
-    height:30rem;
-    border: 1px solid black;
+    margin: 2rem;
+    width:18rem;
+    height:25rem;
 }
 .card {
-    width:20rem;
-    height:30rem;
+    width:18rem;
+    height:25rem;
     box-shadow: 5px 5px 5px black;
 }
 
@@ -23,11 +23,35 @@
 
 .card-body{
     text-align: start;
-    margin-left: 3rem;
+    margin-left: 1.3rem;
     margin-right: 1rem;
     font-size: 1.2rem;
 }
-
+.card-title{
+    margin: 0.6rem;
+    width: 100%;
+}
 .card-text {
-    font-weight: 700;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.Pbutton {
+    text-decoration: none;
+    background-color: chocolate;
+    padding: .3rem;
+    border-radius: 9px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+
+}
+
+
+.Pbutton:hover {
+    box-shadow: 5px 5px 5px black;
+    color: azure;
+    background-color: #1c1c1e;
 }
