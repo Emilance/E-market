@@ -1,0 +1,12 @@
+.header {
+    border:1px solid black;
+}
+
+.logo {
+    text-align: start;
+    margin :1rem  2rem
+}
+
+.logo > span {
+    color:#67677c;
+}
