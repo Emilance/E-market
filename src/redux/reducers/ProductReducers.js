@@ -3,7 +3,7 @@ import { ActionTypes } from "../contents/Action-types";
 
 
 const initialState = {
-    products:[
+    product:[
         {
             id: 1,
             title:"tolu",
