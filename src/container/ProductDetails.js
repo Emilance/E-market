@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
+import { AiOutlineShoppingCart } from 'react-icons/ai'
+import { ImPriceTag }  from 'react-icons/im'
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectedProduct, removeSelectedProduct } from '../redux/action/ProductAction';
@@ -42,13 +44,13 @@ const ProductDetails = () => {
             <div className='productDetails'>
                 <h1 className='title'>{title}</h1>
                 <div className='priceLogo'>
-                     <p>${price}</p>
+                     <p><ImPriceTag size='18px' className='icon'/>${price}</p>
                 </div>
                 <p className='category'><span>CATEGORY:  </span>{category}</p>
                 <p className='rating' >Rating : {rating.rate}</p>
                 <p className='description' >{description}</p>
                 
-            <button className="button">ADD TO CART</button>
+            <button className="button">ADD TO CART <AiOutlineShoppingCart size='16px' className='icon'/> </button>
             </div>
 
         </div>

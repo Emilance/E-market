@@ -6,14 +6,13 @@
 }
 
 .productsList {
-    margin: 2rem;
-    width:18rem;
+    margin: 3rem;
+    width:13rem;
     height:25rem;
 }
 .card {
     width:18rem;
     height:25rem;
-    box-shadow: 5px 5px 5px black;
 }
 
 .card-img {
