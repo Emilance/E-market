@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './container/Header';
 import ProductCollection from './container/ProductCollection';
-import { BrowserRouter as Router,Routes, Route}  from 'react-router-dom'
+import { HashRouter as Router,Routes, Route}  from 'react-router-dom'
 import ProductDetails from './container/ProductDetails';
 
 

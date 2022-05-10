@@ -24,11 +24,11 @@ const ProductDetails = () => {
 
   useEffect(()=>{
       if(productId && productId !==""){
-      getProductDetails()
-      return () =>{
-        dispatch(removeSelectedProduct())
-      }
-      }
+      getProductDetails();
+    }
+    return() =>{
+      dispatch(removeSelectedProduct())
+    }
   }, [productId])
     return ( 
         <div className='sProductcontainer'>
