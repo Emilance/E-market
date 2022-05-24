@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './container/Header';
-import ProductCollection from './container/ProductCollection';
+import Header from './component/Header';
+import ProductCollection from './component/ProductCollection';
 import { HashRouter as Router,Routes, Route}  from 'react-router-dom'
-import ProductDetails from './container/ProductDetails';
+import ProductDetails from './component/ProductDetails';
 
 
 function App() {
